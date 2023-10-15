@@ -1,0 +1,57 @@
+.navbar {
+    text-align: center;
+    color: #926239;
+}
+.navbar h1 {
+    font-size: 50px;
+}
+.navbar p {
+    font-size: 20px;
+}
+.navbar, button {
+    color: #926239;
+    font-size: larger;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button {
+    border: 1px solid #926239;
+}
+.button:hover {
+    color: white;
+    background-color: #926239;
+}
+.main {
+    margin-top: 80px;
+    font-size: 20px;
+}
+.first {
+    color: white;
+    background-color: #926239;
+    padding: 20px;
+    text-align: center;
+}
+.second {
+    color: #926239;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+.footer {
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.one, .tree {
+    color: white;
+    background-color: #926239;
+    padding: 15px;
+}
+.two {
+    color: #926239;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+}
